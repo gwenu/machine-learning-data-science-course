@@ -44,10 +44,12 @@ _Feature coverage_ - how many data samples have different features (ideally ever
   _Training_ 70-80%  
   _Validation_ 10-15%  
   _Test_ 10-15%  
+  
 2. Choosing and training the Model (**Training Data**)
 
   _Structured Data:_ CatBoost, dmlc, XG Boost, Random Forest  
   _Unstructured Data:_ Deep Learning, Transfer Learning  
+
 3. Tuning (**Validation Data**)
 4. Comparison (**Test Data**)
 
@@ -64,4 +66,4 @@ Fix:
 _Overfitting_ -> Data leakage (from test set into training set)  
 Fix:  
 - Collect more data  
-- Try less advanced Model   
+- Try less advanced Model  
